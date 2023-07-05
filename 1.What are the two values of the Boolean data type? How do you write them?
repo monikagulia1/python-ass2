@@ -1,0 +1,9 @@
+1.What are the two values of the Boolean data type? How do you write them?
+A boolean is a data type with two possible values: true (1) or false (0).
+The two values help represent truth conditions found in logic control structures. 
+The name comes from a branch of mathematics called Boolean algebra, named after George Bool
+
+write directly ,there is nno need to write bool.
+a=True
+or
+a=False
