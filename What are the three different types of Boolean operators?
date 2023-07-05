@@ -1,0 +1,7 @@
+Boolean Operators are simple words (AND, OR, NOT)
+used as conjunctions to combine or exclude keywords in a search, resulting in more focused and productive results.
+
+answer after using these, will be True or False.
+AND   &
+OR    |
+NOT   !=
