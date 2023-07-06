@@ -1,0 +1,14 @@
+If your programme is stuck in an endless loop, what keys you’ll press?
+In Python, if your program is stuck in an endless loop and you want to interrupt its execution, you can use the following steps:
+
+1. Press **Ctrl+C** on your keyboard. This keyboard combination works on most platforms, including Windows, Linux, and macOS.
+It sends an interrupt signal to the Python interpreter, causing it to terminate the program.
+
+2. If Ctrl+C doesn't work, you can try using the **Stop** button or **Interrupt** button in your integrated development environment (IDE) or code editor.
+These buttons are typically available in the toolbar or menu of your IDE, and they are specifically designed to stop the execution of a running program.
+
+3. Alternatively, you can also close the terminal or command prompt window where the program is running. 
+This will forcibly terminate the Python process and stop the program.
+
+Remember, it's important to be cautious when interrupting the execution of a program.
+Make sure you've saved any necessary data and consider implementing proper error handling and termination conditions in your code to avoid getting stuck in infinite loops in the first place.
