@@ -1,0 +1,36 @@
+Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+Certainly! Here's the code for printing the numbers 1 to 10 using a `for` loop:
+
+```python
+for i in range(1, 11):
+    print(i)
+```
+
+And here's the equivalent program using a `while` loop:
+
+```python
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+```
+
+Both programs will produce the same output:
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+In the `for` loop version, we utilize the `range()` function to generate a sequence of numbers from 1 to 10 (inclusive) and iterate over each number using the loop variable `i`.
+
+In the `while` loop version, we initialize the variable `i` with the value 1 and repeatedly execute the loop block as long as `i` is less than or equal to 10. Inside the loop, we print the current value of `i` and increment it by 1 (`i += 1`) to ensure the loop eventually terminates.
