@@ -1,0 +1,39 @@
+How do you tell the difference between the equal to and assignment operators?
+Describe a condition and when you would use one.
+
+ANSWER
+In programming languages, the equal to operator (==) and assignment operator (=) have distinct purposes and are used in different contexts.
+
+1. Equal to Operator (==):
+The equal to operator (==) is a comparison operator used to check if two values are equal.
+It evaluates the equality of the operands and returns a boolean value (true or false) based on the comparison.
+It is commonly used in conditional statements, such as if-else statements and loops, to perform actions based on the result of the comparison.
+
+For example:
+```python
+x = 5
+y = 7
+
+if x == y:
+    print("x is equal to y")
+else:
+    print("x is not equal to y")
+```
+In this example, the equal to operator (==) is used to compare the values of variables `x` and `y`.
+If they are equal, it will print "x is equal to y"; otherwise, it will print "x is not equal to y".
+
+2. Assignment Operator (=):
+The assignment operator (=) is used to assign a value to a variable.
+It assigns the value on the right-hand side to the variable on the left-hand side. 
+It does not perform a comparison but rather updates the value of the variable.
+
+For example:
+```python
+x = 5
+y = x + 2
+```
+In this example, the assignment operator (=) is used to assign the value of `x + 2` to the variable `y`.
+It does not compare `x` and `2`; instead, it calculates the value of `x + 2` and assigns it to `y`.
+
+To differentiate between the equal to operator (==) and the assignment operator (=),
+remember that the double equals sign (==) is used for comparison, whereas the single equals sign (=) is used for assignment.
