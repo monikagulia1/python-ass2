@@ -1,0 +1,10 @@
+What are the values of the following expressions?
+
+                                                VALUES                            ANSWER
+
+(5 > 4) and (3 == 5)                        T AND F                                  FALSE
+not (5 > 4)                                  NOT T                                    FALSE
+(5 > 4) or (3 == 5)                         T OR F                                    TRUE
+not ((5 >4) or (3 == 5))                    F OR F                                    FALSE
+(True and True) and (True == False)         T  AND F                                  FALSE
+(not False) or (not True)                   T  OR F                                   TRUE
