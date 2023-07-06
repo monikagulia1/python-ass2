@@ -1,0 +1,19 @@
+truth table
+P          Q           P AND Q
+T          T             T
+T          F             F
+F          T             F
+F          F             F
+
+
+
+P           Q           P OR Q
+T           T             T
+T           F             T
+F           T             T
+F           F              F
+
+
+P           NOT P
+T             F
+F             T
