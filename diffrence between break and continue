@@ -1,0 +1,48 @@
+How can you tell the difference between break and continue?
+In Python, `break` and `continue` are two control flow statements used within loops (such as `for` and `while`) to alter the flow of execution. Here's how they differ:
+
+1. **break:** 
+The `break` statement is used to terminate the current loop and immediately exit the loop's block of code.
+When a `break` statement is encountered, the program will jump to the first statement after the loop.
+This means that any remaining iterations of the loop will be skipped, and the program continues to execute from the point immediately after the loop.
+
+   Example:
+   ```python
+   for i in range(1, 6):
+       if i == 3:
+           break
+       print(i)
+   ```
+   Output:
+   ```
+   1
+   2
+   ```
+
+   In this example, when `i` becomes 3, the `break` statement is encountered, causing the loop to terminate. 
+   Therefore, only the values 1 and 2 are printed before the loop is exited.
+
+2. **continue:**
+The `continue` statement is used to skip the current iteration of a loop and move on to the next iteration.
+When a `continue` statement is encountered, the program will jump to the next iteration without executing the remaining statements in the loop's block.
+
+   Example:
+   ```python
+   for i in range(1, 6):
+       if i == 3:
+           continue
+       print(i)
+   ```
+   Output:
+   ```
+   1
+   2
+   4
+   5
+   ```
+
+   In this example, when `i` becomes 3, the `continue` statement is encountered. 
+   As a result, the remaining statements in the loop are skipped, and the program moves to the next iteration.
+   Hence, the value 3 is not printed.
+
+To summarize, `break` is used to completely exit a loop, while `continue` is used to skip the current iteration and move to the next iteration of the loop.
