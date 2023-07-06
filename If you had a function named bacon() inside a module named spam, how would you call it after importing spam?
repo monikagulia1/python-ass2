@@ -1,0 +1,14 @@
+If you had a function named bacon() inside a module named spam, how would you call it after
+importing spam?
+After importing the `spam` module, you can call the `bacon()` function using the dot notation, which specifies the module name followed by the function name.
+
+Here's an example of how to call the `bacon()` function after importing the `spam` module:
+
+```python
+import spam
+
+spam.bacon()
+```
+
+In this code, we import the `spam` module using the `import` statement. Then, to call the `bacon()` function, we use the dot notation: `spam.bacon()`.
+This syntax indicates that we are calling the `bacon()` function from the `spam` module.
